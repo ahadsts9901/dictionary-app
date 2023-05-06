@@ -5,12 +5,12 @@
 }
 
 body {
-    background-image: url(./images/background.webp);
+    background-image: url(./background.webp);
     background-repeat: repeat;
     margin: 0em;
     background-color: #1f242d;
     color: #84ffe0;
-    padding: 1em 0em;
+    padding: 1em;
 }
 
 h1,
@@ -56,7 +56,7 @@ result {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     row-gap: 1em;
     border: 2px dashed #84ffe0;
     border-radius: 20px;
@@ -77,7 +77,8 @@ result {
     border-bottom-left-radius: 15px;
     padding: 0.5em 1em;
     height: 2em;
-    width: 90%;
+    width: 80%;
+    font-size: 1.3em;
 }
 
 .button {
@@ -91,7 +92,8 @@ result {
     height: 2.5em;
     width: 10em;
     border-radius: 15px;
-    margin-top: 1em;
+    margin: 1em 0em;
+    font-size: 1.1em;
 }
 
 #validation {
@@ -116,6 +118,7 @@ result {
     border-top-left-radius: 27px;
     border-bottom-left-radius: 15px;
     margin: 0em;
+    font-size: 1.5em;
 }
 
 .center {
