@@ -1,0 +1,126 @@
+* {
+    font-family: "Vina Sans", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+body {
+    background-image: url(./images/background.webp);
+    background-repeat: repeat;
+    margin: 0em;
+    background-color: #1f242d;
+    color: #84ffe0;
+    padding: 1em 0em;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0em;
+}
+
+.nostyle {
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}
+
+.round {
+    text-align: center;
+    opacity: 100%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0em;
+    background-color: #21212180;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    row-gap: 1em;
+}
+
+form,
+result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    row-gap: 1em;
+    border: 2px dashed #84ffe0;
+    border-radius: 20px;
+    background-color: #212121;
+}
+
+#word {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-right: 5px solid #84ffe0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 15px;
+    padding: 0.5em 1em;
+    height: 2em;
+    width: 90%;
+}
+
+.button {
+    color: #000;
+    background-color: #84ffe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    padding: 0.2em 0.5em;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+
+#validation {
+    color: #fff;
+    text-align: center;
+}
+
+#definition {
+    color: #212121;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 7em;
+    height: 100%;
+    border: 0px;
+    padding: 0.5em;
+    border-right: 5px solid #84ffe0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 15px;
+    margin: 0em;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 3em 0em 2em 0em;
+}

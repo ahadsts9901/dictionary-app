@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dictionary App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <!-- icons cdn -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- font cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet" />
+
+    <!-- bootstrap cdn -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+
+    <!-- animate.style cdn -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+    <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h2 class="round"><i class="bi bi-book nostyle"></i> Dictionary App</h2>
+    <content>
+        <h1 class="bi bi-book"></h1>
+        <h2>Enter A Word</h2>
+        <h2>And See Definition</h2>
+        <form onsubmit="CalculateWeather(event)">
+            <p>Enter Word Here:</p>
+            <input required id="word" class="input" type="text" placeholder="Enter A Valid Word" />
+            <button class="button" type="submit">
+          <i class="bi bi-search nostyle"></i> See Definition
+        </button>
+        </form>
+        <h3 id="city"></h3>
+        <result>
+            <h2 id="validation"></h2>
+            <h1 id="word-2"></h1>
+            <h3 id="definition"></h3>
+        </result>
+    </content>
+    <p class="center">Thanks For Visiting Regards! Muhammad Ahad&copy;</p>
+</body>
+
+</html>
